@@ -2,7 +2,22 @@ package Day_2;
 
 public class day2 {
     public static void main(String[] args) {
-        
+        // Check if an element exists in an array
+        int[] arr = {4,6,8,7,10};
+        int finEle = 89;
+        boolean found = false;
+        for(int i = 0; i < arr.length; i++) {
+            if(arr[i] == finEle){
+                found = true;
+                break;
+            }
+        }
+        if(found) {
+            System.out.println("Element found");
+        }
+        else{
+            System.out.println("Element Not found");
+        }
     }
 }
 
