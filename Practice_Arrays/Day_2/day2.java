@@ -40,9 +40,9 @@ public class day2 {
 
 // Q-2 Find index of a given element
 
-// Find first occurrence of an element
+// Q-3 Find first occurrence of an element
 
-// Find last occurrence of an element
+// Q-4 Find last occurrence of an element
 
 // Count frequency of a given element
 
