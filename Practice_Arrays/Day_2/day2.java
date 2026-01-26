@@ -44,7 +44,7 @@ public class day2 {
 
 // Q-4 Find last occurrence of an element
 
-// Count frequency of a given element
+// Q-5 Count frequency of a given element
 
 // Search an element and print “Found” or “Not Found”
 
