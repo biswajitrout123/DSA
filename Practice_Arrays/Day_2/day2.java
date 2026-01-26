@@ -46,6 +46,6 @@ public class day2 {
 
 // Q-5 Count frequency of a given element
 
-// Search an element and print “Found” or “Not Found”
+// Q-6 Search an element and print “Found” or “Not Found”
 
 // ✅ You should know when search stops early
