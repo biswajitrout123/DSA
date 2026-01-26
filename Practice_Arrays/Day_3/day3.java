@@ -25,9 +25,9 @@ public class day3 {
 
 // Q-3 Find second largest element
 
-// Find second smallest element
+// Q-4 Find second smallest element
 
-// Difference between max and min
+// Q-5 Difference between max and min
 
 // Count how many elements are smaller than average
 
