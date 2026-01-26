@@ -36,9 +36,9 @@ public class day2 {
 
 // 🎯 Goal: Learn how to find things
 
-// Check if an element exists in an array
+// Q-1 Check if an element exists in an array
 
-// Find index of a given element
+// Q-2 Find index of a given element
 
 // Find first occurrence of an element
 
