@@ -29,6 +29,6 @@ public class day3 {
 
 // Q-5 Difference between max and min
 
-// Count how many elements are smaller than average
+// Q-6 Count how many elements are smaller than average
 
 // ✅ You should think: compare & update
