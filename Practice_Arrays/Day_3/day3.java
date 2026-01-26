@@ -23,7 +23,7 @@ public class day3 {
 
 // Q-2 Find minimum element
 
-// Find second largest element
+// Q-3 Find second largest element
 
 // Find second smallest element
 
