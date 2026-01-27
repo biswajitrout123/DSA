@@ -15,8 +15,8 @@ public class Q_6 {
                 count++;
             }
         }
-        System.out.println(sum);
-        System.out.println(average);
-        System.out.println(count);
+        System.out.println("Sum of All is " + sum);
+        System.out.println("Average is " + average);
+        System.out.println("Counta :" + count);
     }
 }
