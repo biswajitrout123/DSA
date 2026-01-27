@@ -49,10 +49,10 @@ public class day4 {
 
 // Q-3 Insert an element at a given index
 
-// Delete an element from a given index
+// Q-4 Delete an element from a given index
 
-// Delete first occurrence of a value
+// Q-5 Delete first occurrence of a value
 
-// Remove all occurrences of a given value
+// Q-6 Remove all occurrences of a given value
 
 // ✅ You should clearly understand shift left / shift right
