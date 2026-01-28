@@ -5,21 +5,27 @@ public class Q_EXTRA {
 //  Separate even and odd numbers
 // (keep even first, then odd)
 
-        int[] arr = {8, 6, 7, 3, 5, 2, 9, 0, 11, 20, 10, 80, 50, 34, 33, 13, 43, 42, 60};
+        int[] arr = {10,9,6,3,5,20};
+        int[] temp = new int[arr.length];
+
         int k = 0;
-        
         for(int i = 0; i < arr.length; i++){
             if(arr[i] %2 == 0){
-                arr[k] = arr[i];
-                k++;
+                temp[k++] = arr[i];
             }
         }
-        while(arr[i] %2 != 0){
-            arr[k] = arr[i];
-            k++;
+        for(int i = 0; i < arr.length; i++){
+            if(arr[i] %2 != 0){
+                temp[k++] = arr[i];
+            }
         }
-        for(int i = 0; i < arr.length; i++) {
+
+        for(int i = 0; i < arr.length; i++){
+            arr[i] = temp[i];
+        }
+        for(int i = 0; i < arr.length; i++){
             System.out.print(arr[i] + " ");
         }
     }
 }
+
