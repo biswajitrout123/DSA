@@ -34,15 +34,15 @@ public class day6 {
 
 // 🎯 Goal: Think smart, not brute force
 
-// Reverse array using two pointers
+// Q-1 Reverse array using two pointers
 
-// Check if array is palindrome
+// Q-2 Check if array is palindrome
 
-// Swap alternate elements
+// Q-3 Swap alternate elements
 
-// Move all negative numbers to one side
+// Q-4 Move all negative numbers to one side
 
-// Pair sum equals given number (unsorted)
+// Q-5 Pair sum equals given number (unsorted)
 
 // ✅ You should think: left ↔ right
 
