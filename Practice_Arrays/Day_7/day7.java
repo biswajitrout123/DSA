@@ -27,14 +27,14 @@ public class day7 {
 
 // 🎯 Goal: Handle ranges efficiently
 
-// Find sum of all elements of array
+// Q-1 Find sum of all elements of array
 
-// Find maximum sum of subarray of size k
+// Q-2 Find maximum sum of subarray of size k
 
-// Find minimum sum subarray of size k
+// Q-3 Find minimum sum subarray of size k
 
-// Check if any subarray has sum equal to given value
+// Q-4 Check if any subarray has sum equal to given value
 
-// Count number of subarrays
+// Q-5 Count number of subarrays
 
 // ✅ You should understand window expand & shrink
