@@ -4,7 +4,7 @@ public class Q_3 {
 
     public static void main(String[] args) {
         // Q-3 Find minimum sum subarray of size k
-         int[] arr = { 2, 1, 5, 1, 3, 2 };
+        int[] arr = { 2, 1, 5, 1, 3, 2 };
         int k = 3;
 
         int minSum = 0;
