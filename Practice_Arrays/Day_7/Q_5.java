@@ -4,7 +4,16 @@ public class Q_5 {
 
     public static void main(String[] args) {
         // Q-5 Count number of subarrays
-        System.out.println("hello world!");
+        int[] arr = { 2, 1, 5, 1, 3, 2 };
+        int conut = 0;
+
+
+
         
     }
 }
+
+
+
+
+
