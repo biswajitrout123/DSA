@@ -17,8 +17,3 @@ public class Q_6 {
         }
     }
 }
-
-
-
-
-

@@ -3,7 +3,7 @@ package Day_6;
 public class Q_2 {
     public static void main(String[] args) {
         // Check if array is palindrome
-        int[] arr = {8,9,8};
+        int[] arr = {8,9,8,9,8};
         int start = 0;
         int end = arr.length-1;
         boolean isPalindrome = true;
