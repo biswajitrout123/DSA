@@ -43,14 +43,14 @@ public class day8 {
 
 // 🎯 Goal: Sorting logic (not speed)
 
-// Sort an array (any method)
+// Q-1 Sort an array (any method)
 
-// Check if array is already sorted
+// Q-2 Check if array is already sorted
 
-// Sort array in descending order
+// Q-3 Sort array in descending order
 
-// Find k-th largest element
+// Q-4 Find k-th largest element
 
-// Sort only even numbers in array
+// A-5 Sort only even numbers in array
 
 // ✅ You should know why sorting helps
