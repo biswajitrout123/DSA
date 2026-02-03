@@ -1,6 +1,6 @@
 package Day_8;
 
-public class Q_1 {
+public class Q_2 {
     public static void main(String[] args) {
         // Check if array is already sorted
         int[] arr = {5,5,5,5,5};
