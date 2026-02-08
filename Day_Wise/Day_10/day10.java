@@ -1,4 +1,4 @@
-package Day_10;
+package Day_Wise.Day_10;
 
 public class day10 {
     public static void main(String[] args) {
