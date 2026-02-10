@@ -1,5 +1,6 @@
 package HashMap_YT_SHADHA;
 
+import java.util.*;
 import java.util.HashMap;
 
 public class hashMap {
@@ -24,6 +25,25 @@ public class hashMap {
         else {
             System.out.println("Key is not present in the map");
         }
+
+
+
+        // ENTRY SET THROUGH
+        for(Map.Entry<String, Integer> e : map.entrySet()) {
+            System.out.println(e.getKey());
+            System.out.println(e.getValue());
+        }
+
+        // KEY SET THROUGH
+        // Set<String> keys = map.keySet();
+        // for(String key : keys) {
+        //     System.out.println(key + " " + map.get(key));
+        // }
+
+
+        // FOR REMOVING A PAIR
+        // map.remove("China");
+        // System.out.println(map);
     }
 }
 
