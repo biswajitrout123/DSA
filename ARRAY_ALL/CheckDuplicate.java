@@ -1,5 +1,3 @@
-package ARRAY_ALL;
-
 public class CheckDuplicate {
 
     // CHECK DUPLICATE EXIST OR NOT

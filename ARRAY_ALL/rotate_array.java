@@ -1,5 +1,3 @@
-package ARRAY_ALL;
-
 public class rotate_array {
     // Rotate Array
     public static void main(String[] args) {

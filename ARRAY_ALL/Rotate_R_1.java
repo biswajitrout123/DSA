@@ -1,5 +1,3 @@
-package ARRAY_ALL;
-
 public class Rotate_R_1 {
     public static void main(String[] args) {
         // RIGHT ROTATE BY 1 - CLOCK WISE

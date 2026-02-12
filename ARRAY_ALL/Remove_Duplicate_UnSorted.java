@@ -1,5 +1,3 @@
-package ARRAY_ALL;
-
 import java.util.HashSet;
 
 public class Remove_Duplicate_UnSorted {

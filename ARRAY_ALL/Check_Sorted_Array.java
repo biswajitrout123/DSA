@@ -1,5 +1,3 @@
-package ARRAY_ALL;
-
 public class Check_Sorted_Array {
 
     public static void main(String[] args) {

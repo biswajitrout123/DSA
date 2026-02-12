@@ -1,5 +1,3 @@
-package ARRAY_ALL;
-
 import java.util.HashMap;
 
 public class Count_Frequency {

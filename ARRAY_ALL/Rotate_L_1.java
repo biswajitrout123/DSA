@@ -1,5 +1,3 @@
-package ARRAY_ALL;
-
 public class Rotate_L_1 {
     public static void main(String[] args) {
         // Left Rotate by 1 - ANTI-CLOCK-WISE

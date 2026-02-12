@@ -1,6 +1,3 @@
-package ARRAY_ALL;
-
-
 public class RemoveDuplicate {
     public static void main(String[] args) {
         int[] arr = {1,1,2,2,3,4,4,5};
