@@ -1,5 +1,3 @@
-package HashMap_YT_SHADHA;
-
 import java.util.HashMap;
 
 public class Itinerary_Tickets {
