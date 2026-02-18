@@ -1,5 +1,3 @@
-package HashMap_YT_SHADHA;
-
 import java.util.*;
 
 public class MajorityElement {
