@@ -1,4 +1,4 @@
-package FIRST-DO-THIS;
+package Binary_Search_Qs;
 
 public class Phase_3 {
     public static void main(String[] args) {
