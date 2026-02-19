@@ -17,9 +17,7 @@ public class Q_2 {
         }
         else {
             System.out.println("Array is not sorted");
-        }
-
-
-        
+        }        
     }
 }
+

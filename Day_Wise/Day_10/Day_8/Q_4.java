@@ -12,23 +12,59 @@ public class Q_4 {
 
         int arr[] = {8,9,10,50,8};
         int k = 3;
+
         for(int i = 0; i < arr.length - 1; i++) {
             for(int j = 0; j < arr.length - i - 1; j++) {
-                if(arr[j] < arr[j + 1]) {
+                if(arr[j] < arr[j + 1]){
                     int temp = arr[j + 1];
                     arr[j + 1] = arr[j];
                     arr[j] = temp;
                 }
             }
-        
         }
-        printArray(arr);
 
-         if (k > 0 && k <= arr.length) {
-            System.out.println("K-th largest element = " + arr[k - 1]);
-        } else {
+        for(int num : arr) {
+            System.out.print(num + " ");
+        }
+
+
+        if(k > 0 && k <= arr.length) {
+            System.out.println("Largest k th element is : " + arr[k - 1]);
+        }
+        else {
             System.out.println("Invalid value of k");
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // for(int i = 0; i < arr.length - 1; i++) {
+        //     for(int j = 0; j < arr.length - i - 1; j++) {
+        //         if(arr[j] < arr[j + 1]) {
+        //             int temp = arr[j + 1];
+        //             arr[j + 1] = arr[j];
+        //             arr[j] = temp;
+        //         }
+        //     }
+        
+        // }
+        // printArray(arr);
+
+        //  if (k > 0 && k <= arr.length) {
+        //     System.out.println("K-th largest element = " + arr[k - 1]);
+        // } else {
+        //     System.out.println("Invalid value of k");
+        // }
     }
 }
 

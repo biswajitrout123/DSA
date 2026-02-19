@@ -37,5 +37,6 @@ public class day8 {
         for(int num : nums) {
             System.out.print(num + " ");
         }
+        
     }
 }
