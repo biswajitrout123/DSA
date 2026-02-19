@@ -2,34 +2,36 @@ package Day_9;
 
 public class day9 {
     public static void main(String[] args) {
-        
+        // Find duplicate elements
+        int[] arr = { 4, 5, 5, 6, 7, 8, 8};
+        boolean duplicate = false;
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[i] == arr[j]) {
+                    duplicate = true;
+                    System.out.println("Duplicate element = " + arr[i]);
+                    break;
+                }
+            }
+        }
+        if (!duplicate) {
+            System.out.println("No Duplicates");
+        }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 // 📅 DAY 9 – Duplicates & Frequency
 
 // 🎯 Goal: Handle repeated data
 
-// Find duplicate elements
+// 1. Find duplicate elements
 
-// Remove duplicates from sorted array
+// 2. Remove duplicates from sorted array
 
-// Count frequency of each element
+// 3. Count frequency of each element
 
-// Find element with highest frequency
+// 4. Find element with highest frequency
 
-// Find unique element
+// 5. Find unique element
 
 // ✅ You should think: counting / tracking
-
