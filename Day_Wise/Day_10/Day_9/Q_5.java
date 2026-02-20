@@ -20,8 +20,8 @@ public class Q_5 {
         }
 
         for(int key : map.keySet()) {
-            if(map.get(key) <= 1) {
-                System.out.println(key);
+            if(map.get(key) == 1) {
+                System.out.println("Unique Element is : " + key);
             }
         }
 
