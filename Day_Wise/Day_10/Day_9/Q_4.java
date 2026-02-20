@@ -26,6 +26,7 @@ public class Q_4 {
             if (map.get(key) > maxFreq) {
                 maxFreq = map.get(key);
                 maxElement = key;
+
             }
         }
         System.out.println("Element with highest frequency: " + maxElement);
@@ -33,6 +34,10 @@ public class Q_4 {
 
     }
 }
+
+
+
+
 
 
 
