@@ -10,11 +10,10 @@ public class Q_3 {
 
         HashMap<Integer, Integer> map = new HashMap<>();
 
-        for(int num : arr) {
-            if(map.containsKey(num)){
+        for (int num : arr) {
+            if (map.containsKey(num)) {
                 map.put(num, map.get(num) + 1);
-            }
-            else {
+            } else {
                 map.put(num, 1);
             }
         }
@@ -22,6 +21,18 @@ public class Q_3 {
             System.out.println(key + " -> " + map.get(key));
         }
 
+
+        // for(int num : arr) {
+        // if(map.containsKey(num)){
+        // map.put(num, map.get(num) + 1);
+        // }
+        // else {
+        // map.put(num, 1);
+        // }
+        // }
+        // for(int key : map.keySet()) {
+        // System.out.println(key + " -> " + map.get(key));
+        // }
+
     }
 }
-
