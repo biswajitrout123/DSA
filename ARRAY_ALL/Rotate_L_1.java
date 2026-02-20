@@ -17,9 +17,3 @@ public class Rotate_L_1 {
         }
     }
 }
-
-
-
-
-
-

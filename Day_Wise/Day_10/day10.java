@@ -1,8 +1,11 @@
-package Day_Wise.Day_10;
-
 public class day10 {
     public static void main(String[] args) {
+    // Rotate array by k positions
+    int[] arr = {1, 2, 3, 4, 5};
+    int k = 2;
+    for(int i = 0; i < arr.length; i++) {
         
+    }    
     }
 }
 
@@ -32,3 +35,4 @@ public class day10 {
 // Maximum subarray sum (Kadane’s idea)
 
 // ✅ After this day, you’re array-ready for interviews
+
