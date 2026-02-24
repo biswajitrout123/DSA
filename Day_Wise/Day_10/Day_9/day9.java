@@ -28,6 +28,7 @@ public class day9 {
 
 // 2. Remove duplicates from sorted array
 
+
 // 3. Count frequency of each element
 
 // 4. Find element with highest frequency
