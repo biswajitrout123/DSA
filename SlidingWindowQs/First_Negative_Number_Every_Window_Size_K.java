@@ -4,7 +4,7 @@ public class First_Negative_Number_Every_Window_Size_K {
     public static void main(String[] args) {
         int[] arr = { 12, -1, -7, 8, -15, 30, 16, 28 };
         int k = 3;
-        int negative = [arr.length];
+        int[] negative = new int[arr.length];
 
         int wSum = 0;
         int mSum = Integer.MIN_VALUE;
