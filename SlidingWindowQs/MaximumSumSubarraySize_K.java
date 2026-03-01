@@ -11,9 +11,15 @@ public class MaximumSumSubarraySize_K {
         }
         mSum = wSum;
 
+        for(int i = k; i < arr.length; i++) {
+            wSum = wSum - arr[i - k] + arr[i];
+            mSum = Math.max(wSum, mSum);
+        }
+        System.out.println(mSum);
 
         
     }
 }
+
 
 
