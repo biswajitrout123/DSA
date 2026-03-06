@@ -13,11 +13,7 @@ public class number_that_appears_once_other_numbers_twice {
                 break;
             }
         }
-
-        
-
-
-
     }
 }
+
 
