@@ -9,7 +9,6 @@ public class Left_Rotate_Array_by_K_Places {
             start++;
             end--;
         }
-
     }
 
     public static void main(String[] args) {
