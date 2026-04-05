@@ -1,4 +1,4 @@
-package StriverSheetsPractice.Array;
+package StriverSheetsPractice.Array.Easy;
 
 public class Single_Number_1I {
     public static void main(String[] args) {

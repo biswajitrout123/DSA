@@ -1,4 +1,4 @@
-package StriverSheetsPractice.Array;
+package StriverSheetsPractice.Array.Easy;
 
 public class Check_if_the_Array_is_Sorted_II {
     public static void main(String[] args) {

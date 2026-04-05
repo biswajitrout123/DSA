@@ -1,4 +1,4 @@
-package StriverSheetsPractice.Array;
+package StriverSheetsPractice.Array.Easy;
 
 public class Left_Rotate_Array_by_One {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package StriverSheetsPractice.Array;
+package StriverSheetsPractice.Array.Easy;
 
 public class TwoSum {
     public static void main(String[] args) {

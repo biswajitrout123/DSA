@@ -1,4 +1,4 @@
-package StriverSheetsPractice.Array;
+package StriverSheetsPractice.Array.Easy;
 
 import java.util.ArrayList;
 

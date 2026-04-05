@@ -1,4 +1,4 @@
-package StriverSheetsPractice.Array;
+package StriverSheetsPractice.Array.Easy;
 
 // BRUTE FORCEAPPROACH
 public class Longest_subarray_with_sum_K {
