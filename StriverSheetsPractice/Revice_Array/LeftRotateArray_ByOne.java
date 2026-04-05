@@ -9,11 +9,9 @@ public class LeftRotateArray_ByOne {
             arr[i] = arr[i + 1];
         }
         arr[n - 1] = temp;
-        for (int i = 0; i < n; i++) {
-            System.out.print(arr[i] + " ");
 
-            
+        for (int num : arr) {
+            System.out.print(num+ " ");
         }
-        
     }
 }
