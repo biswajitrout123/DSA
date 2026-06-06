@@ -11,6 +11,7 @@ public class Moves_Zero_End {
                 
             }
         }
+        
         while(j < arr.length) {
             arr[j] = 0;
             j++;
