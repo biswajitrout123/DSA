@@ -11,7 +11,7 @@ public class cal_X_powerN_By_Logn {
         int halfPower = calculatePower(x, n/2);
 
         if(n % 2 == 0) {
-            return halfPower  * halfPower;
+            return halfPower * halfPower;
             // or - return calculatePower(x, n/2) * calculatePower(x, n/2) * x;
         }
         else {
