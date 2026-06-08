@@ -11,7 +11,7 @@ public class check_Array_Sorted {
         }
     }
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 90, 5};
+        int[] arr = {1, 2, 3, 4, 5};
         System.out.println(checkSorted(arr, 0));
     }
 }
