@@ -17,9 +17,6 @@ public class printUniqueSubSequences {
 
         uniqueSubSequences(str, idx+1, newString+currChar, set);
         uniqueSubSequences(str, idx+1, newString, set);
-
-
-
     }
     public static void main(String[] args) {
         HashSet<String> set = new HashSet<>();
