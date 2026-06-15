@@ -6,15 +6,18 @@ public class placeTiles {
         if(n < m) {
             return 1;
         }
-        int vertically = placeTile(n - m, m);
-        int horizontlly = placeTile(n - 1, m);
 
-        return vertically + horizontlly;
+        int verticalPlacement = placeTile(n-m, m);
+        int horizontalPlaceent = placeTile(n-1, m);
+        return verticalPlacement + horizontalPlaceent;
+
+
+
     }
+
     public static void main(String[] args) {
-        int n = 3;
-        int m = 3;
+        int n = 1;
+        int m = 1;        
         System.out.println(placeTile(n, m));
-        
     }
 }
