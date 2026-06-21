@@ -15,6 +15,5 @@ public class count_Element_in_Array {
         int target = 10;
         int count = countElment(arr, 0, target, 0);
         System.out.println(count);
-
     }
 }
