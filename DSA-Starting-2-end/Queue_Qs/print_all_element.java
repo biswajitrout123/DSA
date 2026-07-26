@@ -18,11 +18,19 @@ public class print_all_element {
         System.out.println("Enter the elements");
         for (int i = 0; i < n; i++) {
             queue.offer(sc.nextInt());
+            // Insert (enqueue) an element at the rear
         }
         System.out.println("Queue elements:");
         while (!queue.isEmpty()) {
             System.out.println(queue.poll() + " ");
+            // Remove and return the front element
         }
         sc.close();
     }
 }
+
+
+// time complixity = Time Complexity = O(n) ✅
+// space complixity = Space Complexity = O(n) ✅
+
+// Front → [10, 20, 30] ← Rear
