@@ -11,7 +11,7 @@ public class subArray_Sum_k {
         int sum = 0;
         int maxLen = 0;
 
-        for(int i = 1; i < arr.length; i++) {
+        for(int i = 0; i < arr.length; i++) {
             sum += arr[i];
             if(sum == k) {
                 maxLen = i + 1;
