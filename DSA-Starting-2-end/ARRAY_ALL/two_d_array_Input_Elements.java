@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class two_s_array_Input_Elements {
+public class two_d_array_Input_Elements {
     public static void main(String[] args) {
         int[][] arr = new int[3][4];
         Scanner sc = new Scanner(System.in);
