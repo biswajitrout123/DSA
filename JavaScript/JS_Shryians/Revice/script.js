@@ -43,10 +43,10 @@ li.textContent = " hello";
 ul.appendChild(li);
 
 
-let h1 = document.querySelector("h1");
-h1.addEventListener("click", function () {
-    h1.style.color = "red";
-})
+// let h1 = document.querySelector("h1");
+// h1.addEventListener("click", function () {
+//     h1.style.color = "red";
+// })
 
 let p = document.querySelector("p");
 p.addEventListener("mouseover", function () {
@@ -73,5 +73,25 @@ let inp = document.querySelector("input");
 inp.addEventListener("input", function (e) {
     if (e.data !== null) {
         console.log(e.data);
+    }
+})
+
+let sel = document.querySelector("select");
+let device = document.querySelector("#device");
+
+sel.addEventListener("change", function (e) {
+    // device.textContent = "Device Selected"
+    device.textContent = `${e.target.value} Device is Selected`;
+    // console.log(e.target.value);
+})
+
+
+let h1 = document.querySelector("h1");
+window.addEventListener("keydown", function (e) {
+    if (e.key == " ") {
+        h1.textContent = "SPC";
+    }
+    else {
+        h1.textContent = e.key;
     }
 })
