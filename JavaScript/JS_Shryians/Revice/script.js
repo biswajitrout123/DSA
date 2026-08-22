@@ -31,30 +31,47 @@ console.log(c);
 
 
 let num = [10, 20, 30, 40, 50, 60];
-num.forEach(function(num) {
-    console.log(num);    
+num.forEach(function (num) {
+    console.log(num);
 })
 
 
 let ul = document.querySelector("ul");
 let li = document.createElement("li");
-li.textContent = " hello" ;
+li.textContent = " hello";
 
 ul.appendChild(li);
 
 
 let h1 = document.querySelector("h1");
-h1.addEventListener("click", function() {
+h1.addEventListener("click", function () {
     h1.style.color = "red";
 })
 
 let p = document.querySelector("p");
-p.addEventListener("mouseover", function() {
+p.addEventListener("mouseover", function () {
     p.style.backgroundColor = "pink";
 })
 
 let button = document.querySelector("button");
-button.addEventListener("dblclick", function() {
+button.addEventListener("dblclick", function () {
     button.style.color = "purple";
 })
 
+
+
+let h2 = document.querySelector("h2");
+function dblclick() {
+    h2.style.backgroundColor = "black";
+}
+h2.addEventListener("dblclick", dblclick);
+
+h2.removeEventListener("dblclick", dblclick);
+
+
+let inp = document.querySelector("input");
+inp.addEventListener("input", function (e) {
+    if (e.data !== null) {
+        console.log(e.data);
+    }
+})
