@@ -27,3 +27,18 @@ let b = "37" * 7; // 259
 
 let c = parseInt("101", 2); // 5
 console.log(c);
+
+
+
+let num = [10, 20, 30, 40, 50, 60];
+num.forEach(function(num) {
+    console.log(num);    
+})
+
+
+let ul = document.querySelector("ul");
+let li = document.createElement("li");
+li.textContent = " hello" ;
+
+ul.appendChild(li);
+
