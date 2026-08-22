@@ -42,3 +42,19 @@ li.textContent = " hello" ;
 
 ul.appendChild(li);
 
+
+let h1 = document.querySelector("h1");
+h1.addEventListener("click", function() {
+    h1.style.color = "red";
+})
+
+let p = document.querySelector("p");
+p.addEventListener("mouseover", function() {
+    p.style.backgroundColor = "pink";
+})
+
+let button = document.querySelector("button");
+button.addEventListener("dblclick", function() {
+    button.style.color = "purple";
+})
+
