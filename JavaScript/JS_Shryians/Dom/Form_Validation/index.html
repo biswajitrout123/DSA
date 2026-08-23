@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Password Validator</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            background-color: #222;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            width: 350px;
+            padding: 30px;
+            background-color: #333;
+            border-radius: 10px;
+            color: white;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .field {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 7px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        small {
+            display: none;
+            color: red;
+            margin-top: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(41, 143, 114);
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgb(34, 120, 95);
+        }
+
+        #success {
+            display: none;
+            color: lightgreen;
+            text-align: center;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Register</h2>
+
+        <form autocomplete="off" id="form">
+
+            <!-- EMAIL -->
+            <div class="field">
+
+                <label for="email">Email</label>
+
+                <input id="email" type="text" placeholder="Enter your email">
+
+                <small id="emailError">
+                    Invalid email
+                </small>
+
+            </div>
+
+
+            <!-- PASSWORD -->
+            <div class="field">
+
+                <label for="password">Password</label>
+
+                <input id="password" type="password" placeholder="Enter your password">
+
+                <small id="passwordError">
+                    Invalid password
+                </small>
+
+            </div>
+
+
+            <button type="submit">
+                Submit
+            </button>
+
+            <p id="success">
+                Registration successful!
+            </p>
+
+        </form>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
