@@ -1,0 +1,28 @@
+// localStorage → stores data inside the browser.
+// Even if you close the browser, the data will not be deleted.
+
+// sessionStorage → stores data temporarily.
+// When you close the browser/tab, the data is deleted.
+
+// cookies → also store data in the browser.
+// Data is saved inside the browser's cookies property.
+// Cookies are mainly used for storing small amounts of data.
+
+
+
+
+
+
+// localStorage.setItem("name", "Biswajit");
+
+// let val = localStorage.getItem("name");
+
+// localStorage.removeItem("name");
+
+// localStorage.setItem("name", "Rout");
+
+
+localStorage.setItem("friends", JSON.stringify(["biswajit", "harsh", "amit"]));
+
+let fr = JSON.parse(localStorage.getItem("friends"));
+console.log(fr);
