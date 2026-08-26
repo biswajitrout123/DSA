@@ -18,3 +18,16 @@ class CreatePencil {
 
 let p1 = new CreatePencil("natraj", "natarj", 10, "black")
 let p2 = new CreatePencil("apsara", "apsara", 15, "blue")
+
+
+
+
+const promise = new Promise((ressolve, reject) => {
+    setTimeout(() => {
+        ressolve("Data Received")
+    }, 2000);
+});
+
+promise.then(data => {
+    console.log(data);
+})
