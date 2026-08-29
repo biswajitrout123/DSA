@@ -31,3 +31,23 @@ const promise = new Promise((ressolve, reject) => {
 promise.then(data => {
     console.log(data);
 })
+
+
+
+// CLASSES 
+class Person {
+    eat() {
+        console.log("EAT");
+    }
+    sleep() {
+        console.log("SLEEP");
+    }
+}
+
+class Engineer {
+    work() {
+        console.log("Solve problem build something");
+    }
+}
+
+let biswajit = new Engineer();
