@@ -44,9 +44,15 @@ class Person {
     }
 }
 
-class Engineer {
+class Engineer extends Person{
     work() {
         console.log("Solve problem build something");
+    }
+}
+
+class Doctoor extends Person{
+    work() {
+        console.log("Treat Patients");
     }
 }
 
