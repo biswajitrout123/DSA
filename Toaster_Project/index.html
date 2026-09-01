@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Toast Container -->
+    <div id="toast" class="fixed top-5 right-5 hidden items-center gap-3
+           bg-white border border-gray-200 shadow-lg
+           rounded-xl px-5 py-4 min-w-[300px]">
+
+        <div class="w-9 h-9 flex items-center justify-center
+                bg-green-100 text-green-600 rounded-full">
+            ✓
+        </div>
+
+        <div>
+            <h3 class="font-semibold text-gray-800">
+                Success
+            </h3>
+
+            <p id="toastMessage" class="text-sm text-gray-500">
+                Operation completed successfully.
+            </p>
+        </div>
+
+        <button id="closeToast" class="ml-auto text-gray-400 hover:text-gray-700 text-xl">
+            ×
+        </button>
+
+    </div>
+
+    <button id="showToast" class="bg-blue-600 hover:bg-blue-700 text-white
+           px-5 py-2.5 rounded-lg font-medium">
+        Show Toast
+    </button>
+    <script src="script.js"></script>
+</body>
+
+</html>
